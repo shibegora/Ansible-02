@@ -1,0 +1,14 @@
+clickhouse:
+  hosts:
+    clickhouse-centos:
+      ansible_host: localhost
+      ansible_port: 2222
+      ansible_user: root
+      ansible_ssh_pass: password
+vector:
+  hosts:
+    vector-centos:
+      ansible_host: localhost
+      ansible_port: 2223
+      ansible_user: root
+      ansible_ssh_pass: password
